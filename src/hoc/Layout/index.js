@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap'
 
 const Layout = (props) => {
     return (
-        <Container fluid>
+        <Container fluid className="h-100">
             <Header/>
             {props.children}
         </Container>
