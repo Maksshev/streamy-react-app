@@ -10,7 +10,7 @@ class StreamCreate extends Component {
             <div className="form-group">
                 <label className="text-center w-100 mt-4" htmlFor={formProps.label}>{formProps.label}</label>
                 <input autoComplete="off" type="text" className="form-control" id={formProps.label} {...formProps.input}/>
-                {formProps.meta.error && formProps.meta.touched ? <span>{formProps.meta.error}</span> : null}
+                {formProps.meta.error && formProps.meta.touched ? <div className="w-100 mt-3 text-danger text-center">{formProps.meta.error}</div> : null}
             </div>
         )
     }
