@@ -11,4 +11,30 @@ html, body, #root {
   max-width: 1400px;
 }
 
+.edit-delete-buttons {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  z-index: 999;
+  transition: ease 0.5s;
+  background: white;
+}
+
+.stream-item {
+  transition: ease 0.5s;
+}
+
+.stream-item:hover {
+  .edit-delete-buttons {
+    color: #495057;
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+.show-delete-edit-buttons {
+
+}
 

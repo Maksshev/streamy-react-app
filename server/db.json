@@ -1,0 +1,36 @@
+{
+  "streams": [
+    {
+      "title": "wm fwe",
+      "description": "ewdwedwe",
+      "id": 1
+    },
+    {
+      "title": "Somthing good",
+      "description": "Very good",
+      "id": 2
+    },
+    {
+      "title": "Valera",
+      "description": "Valera",
+      "id": 3
+    },
+    {
+      "title": "New stream",
+      "description": "With id",
+      "userId": "100294450457505739382",
+      "id": 4
+    },
+    {
+      "title": "Prog Nav",
+      "description": "Successfully refactored",
+      "userId": "100294450457505739382",
+      "id": 5
+    },
+    {
+      "title": "Konch",
+      "description": "Refactored stream",
+      "id": 6
+    }
+  ]
+}

@@ -1,12 +1,13 @@
 import React from 'react'
 import Routes from '../../routes'
-import {BrowserRouter} from 'react-router-dom'
+import {Router} from 'react-router-dom'
+import history from '../../history'
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <Router history={history}>
             <Routes/>
-        </BrowserRouter>
+        </Router>
     );
 };
 

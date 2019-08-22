@@ -19,6 +19,7 @@ const Header = () => {
                         </NavbarBrand>
                         <Nav className="ml-auto">
                             <Link to="/" className="nav-link">All Streams</Link>
+                            <Link to="/streams/new" className="nav-link">Create stream</Link>
                             <GoogleAuth className="nav-link"/>
                         </Nav>
                     </Navbar>
