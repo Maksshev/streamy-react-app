@@ -7,7 +7,9 @@ import {
     FETCH_STREAM,
     FETCH_STREAMS,
     EDIT_STREAM,
-    DELETE_STREAM
+    DELETE_STREAM,
+    OPEN_DELETE_MODAL,
+    CLOSE_DELETE_MODAL
 } from "./types"
 
 export const signIn = (userId) => {
@@ -64,5 +66,22 @@ export const deleteStream = id => async dispatch => {
         type: DELETE_STREAM,
         payload: id
     })
+    history.push('/')
+}
+
+export const openDeleteModal = (streamId, title) => {
+    return {
+        type: OPEN_DELETE_MODAL,
+        payload: {
+            streamId,
+            title
+        }
+    }
+}
+
+export const closeDeleteModal = () => {
+    return {
+        type: CLOSE_DELETE_MODAL
+    }
 }
 
